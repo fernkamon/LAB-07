@@ -211,6 +211,29 @@ namespace thruthTable
 6. Exclusive OR
 ```
 
+AND
+
+![]()
+
+OR
+
+![]()
+
+NOT
+
+![]()
+
+NAND
+
+![]()
+
+NOR
+
+![]()
+
+Exclusive OR
+
+![]() 
 
 
   2.2.2.	ชนิดข้อมูลตัวเลขจำนวนเต็ม (Integer Types)
