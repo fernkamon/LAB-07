@@ -305,7 +305,7 @@ namespace thruthTable
 }
 ```
 
-![]()
+![](https://github.com/fernkamon/LAB-07/blob/master/CODE.JPG)
 
 
   2.2.2.	ชนิดข้อมูลตัวเลขจำนวนเต็ม (Integer Types)
