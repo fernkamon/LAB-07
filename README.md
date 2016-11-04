@@ -347,6 +347,63 @@ public class intergerTest
 9.	y%8
 10.	100*x+y%2-a
 ```
+Code Program
+
+```
+using System;
+public class intergerTest
+{
+    static void Main(string[] args)
+    {
+        double a = 10, b = 20, x = 5, y = 2, ans;
+          
+        ans = a + b;
+        Console.WriteLine("With a = 10, b = 20, x = 5, y = 2");
+        Console.WriteLine("");
+        Console.WriteLine("1. a + b");
+        Console.WriteLine("   {1} + {2} = {0} ", ans, a, b);
+        Console.WriteLine("");
+        ans = x - b;
+        Console.WriteLine("2. x - b");
+        Console.WriteLine("  {1} - {2} = {0}", ans, x, b);
+        Console.WriteLine("");
+        ans = x * b;
+        Console.WriteLine("3. x * b");
+        Console.WriteLine("   {1} * {2} = {0}", ans, x, b);
+        Console.WriteLine("");
+        ans = y / a;
+        Console.WriteLine("4. y / a");
+        Console.WriteLine("   {1} / {2} = {0}", ans, y, a);
+        Console.WriteLine("");
+        ans = b % y;
+        Console.WriteLine("5. b % y");
+        Console.WriteLine("   {1} % {2} = {0}", ans, b, y);
+        Console.WriteLine("");
+        ans = y + 10 % x;
+        Console.WriteLine("6. y + 10 % x");
+        Console.WriteLine("   {1} + 10 % {2} = {0}", ans, y, x);
+        Console.WriteLine("");
+        ans = a / 3 * 5;
+        Console.WriteLine("7. a / 3 * 5");
+        Console.WriteLine("   {1} / 3 * 5 = {0}", ans, a);
+        Console.WriteLine("");
+        ans = 9 / 2 * a;
+        Console.WriteLine("8. 9 / 2 * a");
+        Console.WriteLine("   9 / 2 * {1}  = {0}", ans, a);
+        Console.WriteLine("");
+        ans = y % 8;
+        Console.WriteLine("9. y % 8");
+        Console.WriteLine("   {1} % 8 = {0}", ans, y);
+        Console.WriteLine("");
+        ans = 100 * x + y % 2 - a;
+        Console.WriteLine("10. 100 * x + y % 2 - a");
+        Console.WriteLine("   100 * {1} + {2} % 2 - {3} = {0}", ans, x, y, a);
+    }
+}
+```
+
+![]()
+
 ##2.2.3. ชนิดข้อมูลเลขทศนิยม (Floating Point and Decimal Types)
 ตัวเลขจำนวนทศนิยม มักจะใช้ในการคำนวณทางวิทยาศาสตร์ เนื่องจากค่าในวิทยาศาสตร์ต้องการความละเอียดสูง หรือมีค่าสูงมากกว่าที่เลขจำนวนเต็มจะเก็บได้
 
