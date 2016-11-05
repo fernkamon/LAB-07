@@ -249,7 +249,7 @@ namespace RandomNumber
 
 1. ให้พิมพ์ค่าตัวแปร boolean ในข้อ 3 ออกทางหน้าจอ
 
-![]()
+![](https://github.com/fernkamon/LAB-07/blob/master/random.JPG)
 
 ##การเขียนโปรแกรมด้วยตัวดำเนินการทางตรรกะ
 
