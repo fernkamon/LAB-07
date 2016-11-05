@@ -56,6 +56,96 @@ Maximum Value :2147483647
 
 คำสั่งสำหรับการทดลอง
 ให้นักศึกษา เขียนโปรแกรมคล้ายกับตัวอย่างที่ 1 โดยมีชนิดข้อมูลเป็น byte, char, bool, sbyte, short, ushort, uint, float, double, decimal, long และ ulong
+   
+   CODE PROGRAM
+   
+  ```  
+   using System;
+namespace variableProperties
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Data type : byte");
+            Console.WriteLine("Size :" + sizeof(byte));
+            Console.WriteLine("Minimum Value :" + byte.MinValue);
+            Console.WriteLine("Maximum Value :" + byte.MaxValue);
+            Console.WriteLine("---------------------------------");
+            Console.WriteLine("");
+            Console.WriteLine("Data type : char");
+            Console.WriteLine("Size :" + sizeof(char));
+            Console.WriteLine("Minimum Value :" + (int)char.MinValue);
+            Console.WriteLine("Maximum Value :" + (int)char.MaxValue);
+            Console.WriteLine("---------------------------------");
+            Console.WriteLine("");
+            bool a = 4 > 5;
+            Console.WriteLine("Data type : bool");
+            Console.WriteLine("4 > 5 then True/False");
+            Console.WriteLine("{0}", a);
+            bool b = 10 < 20;
+            Console.WriteLine("10 < 20 then True/False");
+            Console.WriteLine("{0}", b);
+            Console.WriteLine("---------------------------------");
+            Console.WriteLine("");
+            Console.WriteLine("Data type : sbyte");
+            Console.WriteLine("Size :" + sizeof(sbyte));
+            Console.WriteLine("Minimum Value :" + sbyte.MinValue);
+            Console.WriteLine("Maximum Value :" + sbyte.MaxValue);
+            Console.WriteLine("---------------------------------");
+            Console.WriteLine("");
+            Console.WriteLine("Data type : short");
+            Console.WriteLine("Size :" + sizeof(short));
+            Console.WriteLine("Minimum Value :" + short.MinValue);
+            Console.WriteLine("Maximum Value :" + short.MaxValue);
+            Console.WriteLine("---------------------------------");
+            Console.WriteLine("");
+            Console.WriteLine("Data type : ushort");
+            Console.WriteLine("Size :" + sizeof(ushort));
+            Console.WriteLine("Minimum Value :" + ushort.MinValue);
+            Console.WriteLine("Maximum Value :" + ushort.MaxValue);
+            Console.WriteLine("---------------------------------");
+            Console.WriteLine("");
+            Console.WriteLine("Data type : uint");
+            Console.WriteLine("Size :" + sizeof(uint));
+            Console.WriteLine("Minimum Value :" + uint.MinValue);
+            Console.WriteLine("Maximum Value :" + uint.MaxValue);
+            Console.WriteLine("---------------------------------");
+            Console.WriteLine("");
+            Console.WriteLine("Data type : float");
+            Console.WriteLine("Size :" + sizeof(float));
+            Console.WriteLine("Minimum Value :" + float.MinValue);
+            Console.WriteLine("Maximum Value :" + float.MaxValue);
+            Console.WriteLine("---------------------------------");
+            Console.WriteLine("");
+            Console.WriteLine("Data type : double");
+            Console.WriteLine("Size :" + sizeof(double));
+            Console.WriteLine("Minimum Value :" + double.MinValue);
+            Console.WriteLine("Maximum Value :" + double.MaxValue);
+            Console.WriteLine("---------------------------------");
+            Console.WriteLine("");
+            Console.WriteLine("Data type : decimal");
+            Console.WriteLine("Size :" + sizeof(decimal));
+            Console.WriteLine("Minimum Value :" + decimal.MinValue);
+            Console.WriteLine("Maximum Value :" + decimal.MaxValue);
+            Console.WriteLine("---------------------------------");
+            Console.WriteLine("");
+            Console.WriteLine("Data type : long");
+            Console.WriteLine("Size :" + sizeof(long));
+            Console.WriteLine("Minimum Value :" + long.MinValue);
+            Console.WriteLine("Maximum Value :" + long.MaxValue);
+            Console.WriteLine("---------------------------------");
+            Console.WriteLine("");
+            Console.WriteLine("Data type : ulong");
+            Console.WriteLine("Size :" + sizeof(ulong));
+            Console.WriteLine("Minimum Value :" + ulong.MinValue);
+            Console.WriteLine("Maximum Value :" + ulong.MaxValue);
+            Console.WriteLine("---------------------------------");
+            Console.WriteLine("");
+        }
+    }
+}
+```
 
 **หมายเหตุ**
  
