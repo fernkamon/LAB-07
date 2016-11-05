@@ -767,7 +767,7 @@ public class MathTest
     {
         for (float i = 0; i < Math.PI * 2.0F; i += 0.3F)
         {
-            Console.WriteLine("The sine of {0,10:F} = {1,-10:F6}" + spaces(Math.Cos(i)) + "*", i , Math.Cos(i));
+            Console.WriteLine("y = Cos x {0,10:F} = {1,-10:F6}" + spaces(Math.Cos(i)) + "*", i , Math.Cos(i));
         }
 
     }
@@ -779,7 +779,7 @@ public class MathTest
 }
      ```
      
-     ![](https://github.com/fernkamon/LAB-07/blob/master/cos.JPG)
+     ![](https://github.com/fernkamon/LAB-07/blob/master/COS.JPG)
 
 3.	y = tan(x)
 
@@ -803,4 +803,4 @@ public class MathTest
 }
   ```
   
-  ![]()
+  ![](https://github.com/fernkamon/LAB-07/blob/master/tan.JPG)
