@@ -214,8 +214,42 @@ namespace RandomNumber
 
 1. สร้างตัวแปร boolean โดยเก็บค่าที่ได้จากการเปรียบเทียบตัวเลขในข้อ 1 และ 2
 
+```
+using System;
+namespace RandomNumber
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Random random1 = new Random();
+            int randomNumber1 = random1.Next(0, 9);
+            Console.WriteLine("1. Random 0 - 9");
+            Console.WriteLine("    Random1 = {0} ", randomNumber1);
+            Console.WriteLine("---------------------------");
+            Console.WriteLine("");
+            Console.WriteLine("2. Pleace Input First and Second");
+            Console.Write("First : ");
+            int a = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Second : ");
+            int b = Convert.ToInt32(Console.ReadLine());
+            Random random2 = new Random();
+            int randomNumber2 = random2.Next(a, b);
+            Console.WriteLine("     Random2 = {0} ", randomNumber2);
+            Console.WriteLine("---------------------------");
+            Console.WriteLine("");
+            bool c = randomNumber1 < randomNumber2;
+            Console.WriteLine("3. Boolean Operators");
+            Console.WriteLine("     {0} < {1}", randomNumber1, randomNumber2);
+            Console.WriteLine("     {0}", c);
+        }
+    }
+}
+```
+
 1. ให้พิมพ์ค่าตัวแปร boolean ในข้อ 3 ออกทางหน้าจอ
 
+![]()
 
 ##การเขียนโปรแกรมด้วยตัวดำเนินการทางตรรกะ
 
