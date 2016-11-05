@@ -146,6 +146,13 @@ namespace variableProperties
     }
 }
 ```
+  
+  จะได้ผลลัพธ์ดังนี้
+    
+  ![](https://github.com/fernkamon/LAB-07/blob/master/type1.JPG)
+  
+  ![](https://github.com/fernkamon/LAB-07/blob/master/type2.JPG)
+
 
 **หมายเหตุ**
  
